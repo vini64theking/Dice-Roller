@@ -45,7 +45,7 @@ label{
 }
 @media only screen and (max-width:600px) {
     #container {
-        width: 80%;
+        width: 90%;
     }
     input {
         margin-bottom: 10px;
