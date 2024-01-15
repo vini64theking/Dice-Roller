@@ -17,6 +17,7 @@ button{
     padding: 12px;
     box-sizing: border-box;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 button:hover{
     background-color: hsla(229, 83%, 55%, 0.616);
@@ -42,7 +43,7 @@ label{
 #imageResult img{
     margin: 15px;
 }
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
     #container{
         width: 80%;
     }
