@@ -43,14 +43,12 @@ label{
 #imageResult img{
     margin: 15px;
 }
-@media only screen and (max-width:600px){
-    #container{
+@media only screen and (max-width:600px) {
+    #container {
         width: 80%;
-    }
-    button{
-        margin-top: 10px;
     }
     input {
         margin-bottom: 10px;
     }
 }
+
