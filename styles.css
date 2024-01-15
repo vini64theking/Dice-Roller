@@ -47,7 +47,7 @@ label{
     #container{
         width: 80%;
     }
-    #button{
+    button{
         margin-top: 10px;
     }
 }
