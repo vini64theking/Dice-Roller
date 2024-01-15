@@ -7,7 +7,7 @@ function diceRoller(){
      for(let i=0; i<numOfDice; i++){
         const num=Math.floor(Math.random()*6)+1;
         values.push(num);
-        images.push(`<img src="dice_images/${num}.png">`);
+        images.push(`<img src="${num}.png">`);
      }
      diceResult.textContent=`Dice: ${values.join(', ')}`;
      imageResult.innerHTML=images.join('');
